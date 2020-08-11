@@ -1,0 +1,2 @@
+webpackJsonp([52],{153:function(n,e,t){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),t.d(e,"SAMPLE_CODE",function(){return a});var a="\nclass Fixture extends React.Component {\n  state = {\n    value: 'asdf'\n  }\n\n  onChange(event) {\n    this.setState({ value: event.target.value });\n  }\n\n  render() {\n    const { value } = this.state;\n\n    return (\n      <form>\n        <input value={value} onChange={this.onChange.bind(this)} />\n        <p>Value: {value}</p>\n      </form>\n    );\n  }\n}\n".trim()}});
+//# sourceMappingURL=52.e42e9329.chunk.js.map
